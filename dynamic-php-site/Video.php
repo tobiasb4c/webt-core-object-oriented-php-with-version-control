@@ -5,7 +5,7 @@ interface Video{
     public function getHtmlCode();
     
 }
-
+/*
 class ViodeFrame implements Video(){
     $source = '';
     $name = ''; 
@@ -19,5 +19,5 @@ class ViodeFrame implements Video(){
         return '<iframe class="video" width="200" height="200" src="' . $source . '"></iframe>' . '\\n' .
         '<p class="name">' . $name . '</p>';
     }
-}
+}*/
 ?>
