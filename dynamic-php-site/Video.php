@@ -16,7 +16,8 @@ class ViodeFrame implements Video(){
         $name = $txt;
     }
     public function getHtmlCode(){
-        return '<iframe class="video '. $name.'" width="200" height="200" src="' . $source . '"></iframe>';
+        return '<iframe class="video" width="200" height="200" src="' . $source . '"></iframe>' . '\\n' .
+        '<p class="name">' . $name . '</p>';
     }
 }
 ?>

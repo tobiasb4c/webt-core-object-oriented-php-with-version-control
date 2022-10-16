@@ -1,6 +1,11 @@
 <?php
 //Tobias Nahler und Dion Himmering Index.php
 
+//Imports 
+require 'Video.php';
+
+
+
 //define html
 echo '<!DOCTYPE html>';
 echo '<html lang="ger">';
