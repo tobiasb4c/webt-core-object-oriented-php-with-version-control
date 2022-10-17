@@ -2,6 +2,27 @@ body{
     background-color: #fa969e;
 }
 
+p{
+    background-color: aqua;
+    text-align: justify;
+
+    margin-left: 150px;
+    margin-right: 100px;
+    padding: 0px 0px 0px 0px;
+}
+
+.frame{
+    width:105px;
+    text-align:center;
+    display:inline-block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding-right: 150px;
+    margin-right: 100px;
+    margin-bottom: 1px;
+    
+}
+
 .video{
     margin-left: 150px;
     margin-right: 100px;
@@ -13,6 +34,7 @@ body{
 header{
     margin-bottom: 61px;
 }
+
 .logo{
     height: 100px;
     width: 100px;

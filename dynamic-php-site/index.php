@@ -4,8 +4,9 @@
 //Imports 
 require 'Video.php';
 
-//$video1 = new Video('https://www.youtube.com/watch?v=e6BVMv0yHMg' , 'test');
+$yt1 = new Youtube('https://www.youtube.com/embed/aOIPt1TQXZA' , 'Kumalala');
 
+$vimeo1 = new Vimeo('https://player.vimeo.com/video/758721685?h=e77d940887&color=ffffff', 'Darkeyes');
 //define html
 echo '<!DOCTYPE html>';
 echo '<html lang="ger">';
@@ -29,55 +30,29 @@ echo '';
 echo '<hr color="black" />';
 echo '';
 
-// Videos
+// Video section
 echo '<section>';
-//echo '' . $video1 -> getHtmlCode() . '';
-//print($video1 -> getHtmlCode());
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<hr color="white" />';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '<hr color="white" />';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '<hr color="white" />';
-echo '';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '<hr color="white" />';
-echo '';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '';
-echo '<hr color="white" />';
-echo '';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '<hr color="white" />';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
-echo '';
-echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
+echo $yt1 -> getHtmlCode();
+echo $vimeo1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $vimeo1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $vimeo1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $vimeo1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $vimeo1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $vimeo1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
+echo $vimeo1 -> getHtmlCode();
+echo $yt1 -> getHtmlCode();
 echo '</section>';
 
 //Footer
