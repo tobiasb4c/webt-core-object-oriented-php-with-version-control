@@ -1,23 +1,29 @@
 <?php
-interface Video{
-    public function setSorce($link);
-    public function setName($txt);
+interface Iframe {
     public function getHtmlCode();
     
 }
-/*
-class ViodeFrame implements Video(){
-    $source = '';
-    $name = ''; 
-    public function setSorce($link){
-        $source = $link;
+
+abstract class Video implements Iframe{
+    public $source;
+    public $name; 
+
+    function __construct($source, $name) {
+        $this->source = $source;
+        $this->name = $name;
     }
-    public function setName($txt){
-        $name = $txt;
+
+    public abstract function getHtmlCode();
+}
+
+class Youtube extends Video{
+    function __construct($source, $name) {
+        parent::__construct($source, $name);
     }
+
     public function getHtmlCode(){
-        return '<iframe class="video" width="200" height="200" src="' . $source . '"></iframe>' . '\\n' .
-        '<p class="name">' . $name . '</p>';
+        return '<iframe class="video" width="200" height="200" src="' . $source . '"></iframe>';
     }
-}*/
+}
+
 ?>

@@ -4,7 +4,7 @@
 //Imports 
 require 'Video.php';
 
-
+//$video1 = new Video('https://www.youtube.com/watch?v=e6BVMv0yHMg' , 'test');
 
 //define html
 echo '<!DOCTYPE html>';
@@ -31,6 +31,8 @@ echo '';
 
 // Videos
 echo '<section>';
+//echo '' . $video1 -> getHtmlCode() . '';
+//print($video1 -> getHtmlCode());
 echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
 echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
 echo '<iframe class="video" width="200" height="200"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>';
